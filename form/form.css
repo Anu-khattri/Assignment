@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: antiquewhite;
 }
 #title
@@ -10,22 +10,30 @@ body{
     margin-top: 2opx;
     margin-bottom: 10px;
     padding: 3px;
+    padding-left: 30px;
+    align-items: left;
 
 }
+
 form{
-    
     margin-left:10%;
     border-radius: 10px;
     border: 3px solid;
     width: 550px;
     background-color: rgb(231, 241, 241);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
 
 }
 label{
-    padding-left: 20px;
-    width: 300px;
+   
+    padding-left: 60px;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
     vertical-align: top;
-    font-size: large;
+
     
 }
 #submit
@@ -37,4 +45,58 @@ label{
     
 ;}
 
- 
+  
+
+  
+/* body{
+    background-color: bisque;
+}
+
+
+#titles
+{
+    margin-left: 450px;
+   
+}
+.formElement{
+    margin: 8px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+   
+}
+
+
+
+form{
+
+    width:500px;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-right: 10px;
+    border: 2px solid blue;
+    background-color:rgb(242, 217, 185);
+}
+
+label{
+    padding-left: 60px;
+    display: inline-block;
+    width: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#submit{
+    background-color: aquamarine;
+    float: right;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 210px;
+    margin-top: 0px;
+    padding: 7px;
+}
+
+#submit:hover{
+    background-color: aqua;
+
+} */
