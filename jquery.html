@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+   <script src="jquery-3.7.1.js"></script>
+   <style>
+    #box{
+        height: 200px; width: 200px;
+        background: blue;
+    }
+   </style>
+   <script>
+    $(document).ready(function(){
+    $("#hide").click(function(){
+    $("#box").toggle();
+    });
+   }); 
+  </script>
+<div id="box"></div>
+<button id="hide">Hide div</button>
+</head>
+<body>
+    
+</body>
+</html>

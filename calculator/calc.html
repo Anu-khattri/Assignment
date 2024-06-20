@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1>Making a Simple Calculator in JavaScript</h1>
+    <div>
+        <div class="calcu">
+            <label>Number 1</label>
+            <input type="number" id="num1" placeholder="Enter 1st number">
+        </div>
+        <br><br>
+        <div>
+            <div class="calcu">
+                <label>Number 2</label>
+                <input type="number" id="num2" placeholder="Enter 2nd number">
+            </div>
+        </div>
+        <br><br>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+        <br><br>
+        <label>Result</label>
+        <input type="text" id="result" readonly>
+    </div>
+</body>
+</html>
