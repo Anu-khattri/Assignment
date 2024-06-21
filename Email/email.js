@@ -9,6 +9,7 @@ function validateEmail(email) {
         document.getElementById('Enter').innerHTML = 'Good Job!!!';
 
     }
+        
     else {
         document.getElementById('Enter').innerHTML = 'Enter a correct Email';
 
