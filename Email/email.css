@@ -1,0 +1,16 @@
+body{
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+h1{
+    margin-bottom: 20px;
+}
+ 
+#emailcontainer {
+    color: rgba(14, 5, 73, 0.929);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+

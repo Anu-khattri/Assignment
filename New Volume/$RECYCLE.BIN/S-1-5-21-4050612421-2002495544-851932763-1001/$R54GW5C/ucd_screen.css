@@ -1,0 +1,41 @@
+.ucd-wrapper {
+    display: flex;
+}
+
+.ucd-sidebar {
+    width: 20%;
+    margin-top: 2%;
+    position: sticky;
+    top: 20px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.active {
+    background-color: #3A6073 !important;
+}
+
+.ucd-content {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    #content-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .ucd-sidebar {
+        display: none;
+    }
+
+    #content-menu {
+        display: block;
+    }
+
+    .ucd-content {
+        width: auto
+    }
+
+}
