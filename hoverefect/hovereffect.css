@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(236, 217, 237, 0.904);
+    height: 100vh;
+   padding-left: 50px;
+   
+}
+h1{
+ text-decoration: underline;
+ margin-top: 20px;
+ 
+}
+
+#box{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(79, 155, 226);
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 20px;
+   
+}
+
+    #box:hover {
+        background-color: rgb(230, 15, 187);
+        transform: scale(1.1);
+        
+    }
