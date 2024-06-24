@@ -1,0 +1,68 @@
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(239, 221, 178, 0.575);
+            height: 100vh;
+            
+        }
+
+        h1{
+          font-size: 20px;
+          text-decoration: underline;
+         
+        }
+
+        .slider {
+            position: relative;
+            width: 400px;
+            margin: auto;
+            overflow: hidden;
+            border: 2px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.4s ease-in-out;
+            height: 400px;
+             
+        }
+
+        .slides img {
+            width: 100%;
+            border-right: 2px solid #dad4d4;
+          
+          
+        }
+
+        button {
+            position: absolute;
+           bottom: 5%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        
+        }
+
+        button:hover {
+    background-color: rgba(158, 38, 38, 0.8);
+   
+    
+  
+    }
+
+        .prev {
+            left: 5px;  
+        }
+
+        .next {
+            right: 5px;
+        }
+  
