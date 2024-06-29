@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Grid</title>
+    <link rel="stylesheet" href="calendargrid.css">
+</head>
+<body>
+    <h1>Calendar Grid</h1>
+    <div class="grid-container"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const gridContainer = document.querySelector(".grid-container");
+
+            for (let i = 1; i <= 16; i++) {
+                const gridItem = document.createElement("div");
+                gridItem.className = "grid-item";
+                gridItem.textContent = i;
+                gridItem.id = `day-${i}`;
+                gridContainer.appendChild(gridItem);
+            }
+        });
+    </script>
+</body>
+</html>
